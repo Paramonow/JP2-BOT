@@ -1,7 +1,7 @@
 const discord = require ("discord.js");
 const client = new discord.Client(); 
 
-const token = "Njg4MzkzMTA2NzAxMjg3NDM1.Xmzqlw.F0gpni8Wm9-1whOXHKhu6ZM6S0s";
+const token = "Njg4MzkzMTA2NzAxMjg3NDM1.XrkvVA.3XzAOR1gWCF9TZDf1xTxDKLp3CU";
 client.on ("ready", () => {
     console.log ("Gotowy");
     console.log (`${client.user.tag} wbija na discord`) 
