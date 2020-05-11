@@ -162,15 +162,7 @@ if (!message.guild) return;
            fields: [{
                name: "Losowe cenzopapy:",
                value: "Karol wyślij cenzo"
-             },    
-             {
-              name: "Banowanie",
-              value: "Do piwnicy z (użytkownik)"
-             },     
-             {
-              name: "Kickowanie",
-              value: "Paszoł Won (użytkownik)"
-             },
+             },  
              {
                name: "Losowe gify:",
                value: "Karol wyślij gipha"
