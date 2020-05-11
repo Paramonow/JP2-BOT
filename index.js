@@ -105,7 +105,7 @@ client.on('guildMemberAdd', member => {
         });
 }
 if (!message.guild) return;
-  if (message.content.startsWith('Won ')) {
+  if (message.content.startsWith('Paszoł Won ')) {
     const user = message.mentions.users.first();
     if (user) {
       const member = message.guild.member(user);
@@ -176,7 +176,7 @@ if (!message.guild) return;
              },     
              {
               name: "Kickowanie",
-              value: "Won (użytkownik)"
+              value: "Paszoł Won (użytkownik)"
              },
              {
                name: "Losowe gify:",
