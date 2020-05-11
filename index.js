@@ -126,7 +126,6 @@ if (!message.guild) return;
      }
 
      if (message.content.startsWith('Do piwnicy z ')) {
-      if (!message.guild.me.hasPermission(KICK_MEMBERS))
       const user = message.mentions.users.first();
       if (user) {
         const member = message.guild.member(user);
