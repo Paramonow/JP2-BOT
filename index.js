@@ -105,7 +105,7 @@ client.on('guildMemberAdd', member => {
         });
 }
 if (!message.guild) return;
-  if (message.content.startsWith(prefix + 'Won')) {
+  if (message.content.startsWith('Won ')) {
     const user = message.mentions.users.first();
     if (user) {
       const member = message.guild.member(user);
@@ -132,7 +132,7 @@ if (!message.guild) return;
          message.channel.send ("okej :heart:", {files: ["./dzieci/" + imageNumber + ".jpg"]}); 
      }
 
-     if (message.content.startsWith('Do piwnicy z')) {
+     if (message.content.startsWith('Do piwnicy z ')) {
       const user = message.mentions.users.first();
       if (user) {
         const member = message.guild.member(user);
