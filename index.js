@@ -56,14 +56,6 @@ dispatcher.destroy();
         KarolMatematyk = Math.floor (Math.random() * (number -1 + 1 )) +1;
         message.channel.send (KarolMatematyk);
     }
-  if (message.content.startsWith ("Karol policz do 2137")) {
-        number = 1;
-        KarolLiczący = number + 1;
-        for (let KarolLiczący=0; KarolLiczący<=2137; KarolLiczący++) {
-        message.channel.send (KarolLiczący);
-        if (message.content.startsWith ("Stop")) {
-          message.channel.send ("ok już kończe");
-    }}}
     client.on("guildMemberAdd", member =>{
       emitter.setMaxListeners(100)
       member.send("Witam na serwerze i nie zapominaj o nie informowaniu innych osób o tym  co się tu dzieje bo wylądujesz w Watykańskich piwnicach, pozdrawiam :heart:");
