@@ -132,7 +132,7 @@ if (!message.guild) return;
          message.channel.send ("okej :heart:", {files: ["./dzieci/" + imageNumber + ".jpg"]}); 
      }
 
-     if (message.content.startsWith(prefix + 'Do piwnicy z')) {
+     if (message.content.startsWith('Do piwnicy z')) {
       const user = message.mentions.users.first();
       if (user) {
         const member = message.guild.member(user);
@@ -169,6 +169,14 @@ if (!message.guild) return;
            fields: [{
                name: "Losowe cenzopapy:",
                value: "Karol wyślij cenzo"
+             },    
+             {
+              name: "Banowanie",
+              value: "Do piwnicy z (użytkownik)"
+             },     
+             {
+              name: "Kickowanie",
+              value: "Won (użytkownik)"
              },
              {
                name: "Losowe gify:",
