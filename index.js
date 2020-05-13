@@ -99,7 +99,7 @@ client.on('guildMemberAdd', member => {
          }
         });
 }
-        if (message.content.startsWith('Daj klapsa ')) {
+        if (message.content.startsWith('Daj klapsa dla ')) {
         const user = message.mentions.users.first();
         message.channel.send(`Dałem soczystego klapsa dla ${user.tag}`);
     }
