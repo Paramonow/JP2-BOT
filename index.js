@@ -6,7 +6,7 @@ client.on ("ready", () => {
     console.log ("Gotowy");
     console.log (`${client.user.tag} wbija na discord`) 
     client.user.setPresence ("Witam");
-    client.user.setActivity('Child Rape Simulator i jp2 help', { type: 'PLAY' })
+    client.user.setActivity('Child Rape Simulator i jp2 help', { type: 'PLAYING' })
   .then(presence => console.log(`Activity set to ${presence.activities[0].name}`))
   .catch(console.error);
 })
