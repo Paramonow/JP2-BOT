@@ -99,6 +99,10 @@ client.on('guildMemberAdd', member => {
          }
         });
 }
+        if (message.content.startsWith('Daj klapsa ')) {
+        const user = message.mentions.users.first();
+        message.channel.send(`Dałem soczystego klapsa dla ${user.tag}`);
+    }
 if (!message.guild) return;
   if (message.content.startsWith('Wywal go ')) {
     const user = message.mentions.users.first();
