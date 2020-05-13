@@ -100,7 +100,7 @@ client.on('guildMemberAdd', member => {
         });
 }
 if (!message.guild) return;
-  if (message.content.startsWith('Paszoł Won ')) {
+  if (message.content.startsWith('Wywal go ')) {
     const user = message.mentions.users.first();
     if (user) {
       const member = message.guild.member(user);
@@ -127,7 +127,7 @@ if (!message.guild) return;
          message.channel.send ("okej :heart:", {files: ["./dzieci/" + imageNumber + ".jpg"]}); 
      }
 
-     if (message.content.startsWith('Do piwnicy z ')) {
+     if (message.content.startsWith('Do sexlochu z ')) {
       const user = message.mentions.users.first();
       if (user) {
         const member = message.guild.member(user);
@@ -181,10 +181,6 @@ if (!message.guild) return;
               name: "Pytanie o godzine:",
               value: "Karol która godzina ?"
            },
-             {
-             name: "Liczenie do 2137",
-             value: "Karol policz do 2137"
-            },
             {
               name: "Losowa liczba",
               value: "Karol wymyśl liczbe do 2137"
