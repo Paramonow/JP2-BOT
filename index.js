@@ -6,7 +6,7 @@ client.on ("ready", () => {
     console.log ("Gotowy");
     console.log (`${client.user.tag} wbija na discord`) 
     client.user.setPresence ("Witam");
-    client.user.setActivity(`Wale w wiatro i dziecięce porno! zapraszam na !jp2 help `);
+    client.user.setActivity('Wale w wiatro i dziecięce porno! zapraszam na !jp2 help',{type: 'WATCHING'});
 })
 
 const prefix = "!jp2 ";
