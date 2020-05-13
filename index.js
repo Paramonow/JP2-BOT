@@ -178,6 +178,10 @@ if (!message.guild) return;
                value: "Karol wyślij mi swoje mokre sny"
              },
              {
+               name: "Klaps dla:",
+               value: "Daj klapsa dla (użytkownik)"
+             },
+             {
                 name: "Fajna piosenka:",
                 value: "Karol dasz link do Okrutnika ?"
             },
