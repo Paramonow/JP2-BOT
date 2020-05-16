@@ -33,7 +33,7 @@ dispatcher.destroy();
 } else {
   message.reply('XYZ');
 }}
-         if (message.content === 'xd') {
+         if (message.content === 'xo') {
         if (message.member.voice.channel) {
           const connection = await message.member.voice.channel.join();
           connection.play(ytdl('https://www.youtube.com/watch?v=QZXc39hT8t4&list=PLkHfHt307_sUbPcah40NtzDmId5wZDMa2&index=15&t=0s', { filter: 'audioonly' }));
