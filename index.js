@@ -1,5 +1,6 @@
 const discord = require ("discord.js");
 const client = new discord.Client(); 
+const ytdl = require('ytdl-core');
 
 const token = "Njg4MzkzMTA2NzAxMjg3NDM1.XrkvVA.3XzAOR1gWCF9TZDf1xTxDKLp3CU";
 client.on ("ready", () => {
@@ -32,6 +33,14 @@ dispatcher.destroy();
 } else {
   message.reply('XYZ');
 }}
+         if (message.content === 'xd') {
+        if (message.member.voice.channel) {
+          const connection = await message.member.voice.channel.join();
+          connection.play(ytdl('https://www.youtube.com/watch?v=QZXc39hT8t4&list=PLkHfHt307_sUbPcah40NtzDmId5wZDMa2&index=15&t=0s', { filter: 'audioonly' }));
+        } else {
+          message.reply('You need to join a voice channel first!');
+        }
+      }
 
     if (message.content.startsWith ("Witaj Karolu")) {
         message.reply ('Cześć');
